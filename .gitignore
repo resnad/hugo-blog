@@ -1,0 +1,56 @@
+# Hugo default output directory
+/public
+
+# Hugo generated files
+/resources/_gen
+
+# Temporary files
+.hugo_build.lock
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Visual Studio Code specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Hugo themes (if you're using git submodules for themes)
+themes/*
+!themes/.gitkeep
+
+# Node modules (if you're using any Node.js based tools)
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Optional: Ignore generated HTML files in content folder (if you're generating content)
+content/**/*.html
+
+# Optional: Ignore Netlify configuration file (if you're not using Netlify)
+# netlify.toml
+
+# Optional: Ignore local Hugo configuration file
+# config.local.toml
+
+# Optional: Ignore bundled JavaScript files (if you're using Hugo Pipes)
+assets/js/bundle.js
+
+# Optional: Ignore drafts
+content/drafts/
+
+
+/themes
